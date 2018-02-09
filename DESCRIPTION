@@ -1,13 +1,14 @@
 Package: NLPLists
 Type: Package
-Title: Package containing lists of abbreviations, contractions, profane words, acronyms and other lists useful in NLP
+Title: NLP Dictionary Lists
 Version: 0.1.0
 Authors@: person("John", "James", email = "jjames@datasciencesalon.org",
                   role = c("aut", "cre"))
 Maintainer: John James <jjames@datasciencesalon.org>
-Description: TBD
+Description: Package containing lists of abbreviations, contractions, profane words, acronyms and other lists useful in NLP
 License: MIT
 Encoding: UTF-8
 Depends:
+    R (>= 3.4.1),
 LazyData: true
 RoxygenNote: 6.0.1
