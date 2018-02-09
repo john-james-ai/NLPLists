@@ -1,11 +1,13 @@
 Package: NLPLists
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Package containing lists of abbreviations, contractions, profane words, acronyms and other lists useful in NLP
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@: person("John", "James", email = "jjames@datasciencesalon.org",
+                  role = c("aut", "cre"))
+Maintainer: John James <jjames@datasciencesalon.org>
+Description: TBD
+License: MIT
 Encoding: UTF-8
+Depends:
 LazyData: true
+RoxygenNote: 6.0.1
