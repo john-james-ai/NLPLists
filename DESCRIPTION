@@ -10,5 +10,7 @@ License: MIT
 Encoding: UTF-8
 Depends:
     R (>= 3.4.1)
+Imports:
+    dplyr
 LazyData: true
 RoxygenNote: 6.0.1
