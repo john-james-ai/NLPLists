@@ -25,6 +25,12 @@ getData <- function(path, name = NULL) {
   filePath <- file.path(directory, paste0(name, ".rda"))
 
   data <- read.csv(file = path, header = TRUE)
+  data[] <- lapply(data, as.character)
   assign(name, data)
   save(list = name, file = filePath, compression_level = 9)
 }
+
+getData(path = "./data-raw/contractions.csv", name = "contractions")
+getData(path = "./data-raw/emoticons.csv", name = "emoticons")
+getData(path = "./data-raw/internetAbbreviations.csv", name = "internetAbbreviations")
+getData(path = "./data-raw/profanity.csv", name = "profanity")
