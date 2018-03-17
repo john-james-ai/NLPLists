@@ -34,3 +34,4 @@ getData(path = "./data-raw/contractions.csv", name = "contractions")
 getData(path = "./data-raw/emoticons.csv", name = "emoticons")
 getData(path = "./data-raw/internetAbbreviations.csv", name = "internetAbbreviations")
 getData(path = "./data-raw/profanity.csv", name = "profanity")
+
